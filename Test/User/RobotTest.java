@@ -16,24 +16,24 @@ class RobotTest {
 
     @Test
     void say1() {
-        assertEquals("Робот ", robot.say1(Messages.Hello));
+        assertEquals("Робот ", robot.sayHello(Messages.Hello));
     }
 
     @Test
     void say2() {
-        assertEquals("<", robot.say2(Messages.Less) );
+        assertEquals("<", robot.sayLess(Messages.Less) );
     }
 
     @Test
-    void say3() {assertEquals(">", robot.say3(Messages.more) );
+    void say3() {assertEquals(">", robot.sayMore(Messages.more) );
     }
 
     @Test
     void say4() {
-        assertEquals("True", robot.say4(Messages.Winner) );
+        assertEquals("True", robot.sayWinner(Messages.Winner) );
     }
 
     @Test
-    void say5() {assertEquals("False", robot.say5(Messages.losser) );
+    void say5() {assertEquals("False", robot.sayLosser(Messages.losser) );
     }
 }

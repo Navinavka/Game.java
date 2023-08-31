@@ -65,7 +65,7 @@ public class Program {
         button2.setBounds(20,350,350,20);
 
         frame.setSize(400, 400);
-        frame.setTitle("Угодайка");
+        frame.setTitle("Угадайка");
         frame.setLayout(null);
         frame.setVisible(true);
     }

@@ -32,34 +32,34 @@ public abstract class Player {
      * Приветствие
      * @param messages1 сообщение
      */
-    public abstract String say1 (Messages messages1);
+    public abstract String sayHello (Messages messages1);
 
     /**
      * Абстрактный метод класса
      * Вывод сообщения Меньше
      * @param messages2 сообщение
      */
-    public abstract String say2 (Messages messages2);
+    public abstract String sayLess (Messages messages2);
 
     /**
      * Абстрактный метод класса
      * Вывод сообщения больше
      * @param messages3 сообщение
      */
-    public abstract String say3 (Messages messages3);
+    public abstract String sayMore (Messages messages3);
 
     /**
      * Абстрактный метод класса
      * Вывод сообщения Победа
      * @param messages4 сообщение
      */
-    public abstract String say4 (Messages messages4);
+    public abstract String sayWinner (Messages messages4);
 
     /**
      * Абстрактный метод класса
      * Вывод сообщения Поражение
      * @param messages5 сообщение
      */
-    public abstract String say5 (Messages messages5);
+    public abstract String sayLosser (Messages messages5);
 
 }

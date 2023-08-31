@@ -24,28 +24,28 @@ public class Main {
         Play play = OptCreatePlaer.optcreatePlaer();
         Player player = play.createPlaer();
 
-        System.out.println(player.say1(Messages.Hello) + player.getName() + ". Угадай число");
+        System.out.println(player.sayHello(Messages.Hello) + player.getName() + ". Угадай число");
 
         int y = Game.number();
         System.out.println(y);
 
         for (int i = 1; i <= 4; i++) {
             if (i == 4) {
-                System.out.println(player.say5(Messages.losser));
+                System.out.println(player.sayLosser(Messages.losser));
                 return;
             }
 
             int x = Input.enterNumber(i);
             if (y < x) {
-                System.out.println(player.say2(Messages.Less));
+                System.out.println(player.sayLess(Messages.Less));
                 continue;
             }
             if (y > x) {
-                System.out.println(player.say3(Messages.more));
+                System.out.println(player.sayMore(Messages.more));
                 continue;
             }
             if (y == x) {
-                System.out.println(player.say4(Messages.Winner));
+                System.out.println(player.sayWinner(Messages.Winner));
                 return;
             }
 

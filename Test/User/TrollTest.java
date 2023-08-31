@@ -21,26 +21,26 @@ class TrollTest {
 
     @Test
     void say1() {
-             assertEquals("Я твоя не съесть. Я есть ", troll.say1(Messages.Hello) );
+             assertEquals("Я твоя не съесть. Я есть ", troll.sayHello(Messages.Hello) );
     }
 
     @Test
     void say2() {
-             assertEquals("Надо Меньше", troll.say2(Messages.Less) );
+             assertEquals("Надо Меньше", troll.sayLess(Messages.Less) );
     }
 
     @Test
     void say3() {
-             assertEquals("Надо Больше", troll.say3(Messages.more) );
+             assertEquals("Надо Больше", troll.sayMore(Messages.more) );
     }
 
     @Test
     void say4() {
-           assertEquals("Ура! Победа", troll.say4(Messages.Winner) );
+           assertEquals("Ура! Победа", troll.sayWinner(Messages.Winner) );
     }
 
     @Test
     void say5() {
-          assertEquals("Ты Проиграл!", troll.say5(Messages.losser) );
+          assertEquals("Ты Проиграл!", troll.sayLosser(Messages.losser) );
     }
 }

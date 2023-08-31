@@ -19,7 +19,7 @@ public class Troll extends Player {
      * @return
      */
     @Override
-    public String say1(Messages messages1) {
+    public String sayHello(Messages messages1) {
         return Messages.Hello.getSpeak1();
     }
 
@@ -31,7 +31,7 @@ public class Troll extends Player {
      * @return
      */
     @Override
-    public String say2(Messages messages2) {
+    public String sayLess(Messages messages2) {
         return Messages.Less.getSpeak1();
     }
 
@@ -43,7 +43,7 @@ public class Troll extends Player {
      * @return
      */
     @Override
-    public String say3(Messages messages3) {
+    public String sayMore(Messages messages3) {
         return Messages.more.getSpeak1();
     }
 
@@ -55,7 +55,7 @@ public class Troll extends Player {
      * @return
      */
     @Override
-    public String say4(Messages messages4) {
+    public String sayWinner(Messages messages4) {
         return Messages.Winner.getSpeak1();
     }
 
@@ -67,7 +67,7 @@ public class Troll extends Player {
      * @return
      */
     @Override
-    public String say5(Messages messages5) {
+    public String sayLosser(Messages messages5) {
         return Messages.losser.getSpeak1();
     }
 
