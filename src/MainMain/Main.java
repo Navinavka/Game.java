@@ -27,7 +27,7 @@ public class Main {
         System.out.println(player.sayHello(Messages.Hello) + player.getName() + ". Угадай число");
 
         int y = Game.number();
-        System.out.println(y);
+//        System.out.println(y);
 
         for (int i = 1; i <= 4; i++) {
             if (i == 4) {
